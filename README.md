@@ -1,30 +1,56 @@
 # MyMeals
 
-MyMeals is a sample iOS application that uses OpenAI to suggest recipes based on
-user-provided ingredients, macros, allergies, preferences and other dietary
-restrictions.
+**MyMeals** is a modern AI-powered meal planning app for iOS and Android.  
+It helps users manage their grocery list, generate realistic meal ideas based on what they have, and track their meals — all from one easy interface.
 
-## Getting Started
+---
 
-1. Open Xcode and create a new **SwiftUI App** project named `MyMeals`.
-2. Replace the generated Swift files with the ones found in the `MyMeals` folder
-   of this repository.
-3. Add your OpenAI API key in `RecipeService.swift`.
-4. Build and run on an iPhone or simulator.
+## Features
 
-## Project Structure
+- **Grocery List Management**  
+  - Add, edit, and remove grocery items  
+  - Track quantities in counts, weight, or volume
 
-```
-MyMeals/
-├── ContentView.swift       # Main UI for entering parameters and listing recipes
-├── MyMealsApp.swift        # Application entry point
-├── RecipeService.swift     # Handles OpenAI API requests
-└── Models/
-    ├── Recipe.swift        # Recipe data model
-    └── RecipeRequest.swift # User request parameters
-```
+- **AI Recipe Generation**  
+  - Get recipe suggestions tailored to your groceries  
+  - Uses OpenAI for only realistic, appealing meal ideas
 
-This repository only contains example Swift files. You will need Xcode to build
-and run the app.
-\nSet your OpenAI API key in `RecipeService.swift` by replacing `YOUR_OPENAI_KEY` with your key.
+- **Meals Log**  
+  - Save meals, add personal notes, and review nutrition info  
+  - Meals are fully editable and persistent
 
+- **Coming Soon: Daily Log**  
+  - Log what you eat each day  
+  - Track trends and nutrition over time
+
+---
+
+## App Structure
+
+modules/
+  groceries/
+    screens/
+      GroceryListScreen.js
+  meals/
+    screens/
+      MealsScreen.js
+context/
+  GroceryContext.js
+services/
+  generateRecipes.js
+App.js
+app.config.js
+babel.config.js
+.gitignore
+README.md
+
+---
+
+## About
+
+MyMeals was designed to make meal planning easier and smarter for everyone.  
+For business inquiries or product feedback, contact [your email here].
+
+All rights to the MyMeals app, name, code, and design are reserved.  
+
+---
