@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+*.DS_Store
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+android/app/build/
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+
+# Expo
+.expo/
+.expo-shared/
+
+# Bundler output
+*.bundle
+*.map
+*.output
+
+# Metro
+metro-cache/
+tmp/
+
+# OS generated files
+*.swp
+*.swo
+*.tmp
+*.log
+
+# React Native config files
+.env
+.env.*
+!.env.example
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+
+# Android/IntelliJ
+*.iml
+.idea/
+.gradle/
+local.properties
+
+# VSCode
+.vscode/
+.history/
